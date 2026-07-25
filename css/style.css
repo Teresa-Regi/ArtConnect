@@ -1,1 +1,309 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
 
+body{
+
+background:#f8f9fa;
+
+}
+
+/* Navbar */
+
+.navbar{
+
+background:rgba(0,0,0,.55);
+
+backdrop-filter:blur(10px);
+
+}
+
+.navbar-brand{
+
+color:#FFD700 !important;
+
+}
+
+.nav-link{
+
+color:white !important;
+
+margin-left:15px;
+
+}
+
+.nav-link:hover{
+
+color:#FFD700 !important;
+
+}
+
+/* Hero */
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("../images/hero.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+.hero-content{
+
+color:white;
+
+animation:fadeIn 1.5s;
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+font-weight:bold;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:24px;
+
+margin-bottom:35px;
+
+}
+
+.btn-primary{
+
+padding:15px 40px;
+
+font-size:20px;
+
+border-radius:50px;
+
+transition:.4s;
+
+}
+
+.btn-primary:hover{
+
+transform:scale(1.08);
+
+}
+
+/* Cards */
+
+.card{
+
+border:none;
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card img{
+
+height:300px;
+
+object-fit:cover;
+
+}
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Login Page */
+
+.login-page{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("../images/pic1.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.login-card{
+
+width:420px;
+
+background:rgba(255,255,255,0.12);
+
+backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,0.3);
+
+padding:40px;
+
+border-radius:20px;
+
+color:white;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+animation:fadeIn 1s;
+
+}
+
+.login-card h2{
+
+font-weight:bold;
+
+margin-bottom:15px;
+
+}
+
+.login-card p{
+
+margin-bottom:20px;
+
+}
+
+.login-card .form-control{
+
+height:50px;
+
+border-radius:10px;
+
+}
+
+.login-card .btn{
+
+height:50px;
+
+font-size:18px;
+
+border-radius:10px;
+
+}
+
+.login-card a{
+
+color:#FFD700;
+
+text-decoration:none;
+
+}
+
+.signup-page{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("../images/pic2.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.gallery-section{
+
+padding:120px 0;
+
+background:#f5f5f5;
+
+min-height:100vh;
+
+}
+
+.gallery-section h1{
+
+font-size:50px;
+
+font-weight:bold;
+
+margin-bottom:50px;
+
+}
+
+.gallery-section .card{
+
+border:none;
+
+border-radius:15px;
+
+overflow:hidden;
+
+transition:.4s;
+
+}
+
+.gallery-section .card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.gallery-section img{
+
+height:320px;
+
+object-fit:cover;
+
+}
+
+.gallery-section .btn{
+
+margin-top:10px;
+
+}
